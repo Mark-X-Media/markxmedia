@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dental Marketing Agency | Mark X Media</title>
+<meta name="description" content="Mark X Media helps dental clinics get found on Google, run high-performing ads and build modern websites that bring in more patients.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- BEGIN mxd page styles (paste into Elementor > Custom CSS or an HTML widget) -->
+<style>
+.mxd{--navy:#050b1f;--navy-2:#081330;--line:rgba(96,140,255,.28);--blue:#1f5bff;--blue-2:#3b82ff;--sky:#8fb4ff;--ink:#0b1633;--muted:#5b6785;--muted-d:#a9b6d6;--light:#f4f7fd;--white:#fff;--r:14px;
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#fff;background:var(--navy);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.mxd *,.mxd *::before,.mxd *::after{box-sizing:border-box}
+.mxd h1,.mxd h2,.mxd h3,.mxd p{margin:0}
+.mxd a{color:inherit;text-decoration:none}
+.mxd img{max-width:100%;display:block}
+.mxd svg.i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.mxd .wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+.mxd section{padding:96px 0;position:relative}
+.mxd .eyebrow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-2);margin-bottom:12px}
+.mxd h2{font-size:clamp(28px,3.4vw,40px);line-height:1.18;font-weight:800;letter-spacing:-.02em}
+.mxd .lead{color:var(--muted-d);font-size:17px;margin-top:16px;max-width:560px}
+.mxd .light{background:var(--light);color:var(--ink)}
+.mxd .light .lead{color:var(--muted)}
+.mxd .btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .2s,box-shadow .2s,background .2s}
+.mxd .btn-primary{background:var(--blue);color:#fff;box-shadow:0 10px 30px -8px rgba(31,91,255,.7)}
+.mxd .btn-primary:hover{transform:translateY(-2px);background:var(--blue-2)}
+.mxd .btn-ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.mxd .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+.mxd .btn-white{background:#fff;color:var(--blue)}
+.mxd .btn-white:hover{transform:translateY(-2px)}
+.mxd .link{color:var(--blue-2);font-weight:700;display:inline-flex;gap:8px;align-items:center}
+.mxd .link:hover{gap:12px}
+.mxd .ic{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:rgba(31,91,255,.14);color:var(--sky);border:1px solid var(--line)}
+.mxd .light .ic{background:#e8efff;color:var(--blue);border-color:#d5e1ff}
+.mxd .card{border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,rgba(18,36,86,.55),rgba(8,19,48,.55));padding:26px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.mxd .card:hover{transform:translateY(-4px);border-color:rgba(96,140,255,.7);box-shadow:0 20px 40px -20px rgba(31,91,255,.6)}
+.mxd .card h3{font-size:17px;font-weight:700;margin:16px 0 6px}
+.mxd .card p{color:var(--muted-d);font-size:14.5px}
+.mxd .checks{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:14px}
+.mxd .checks li{display:flex;gap:12px;align-items:center;font-weight:600}
+.mxd .checks li::before{content:"";width:22px;height:22px;border-radius:50%;flex:none;background:var(--blue) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E") center/13px no-repeat}
+
+/* hero */
+.mxd .hero{padding:72px 0 64px;background:radial-gradient(900px 500px at 85% 20%,rgba(31,91,255,.35),transparent 60%),radial-gradient(600px 400px at 0% 100%,rgba(31,91,255,.18),transparent 60%),var(--navy)}
+.mxd .hero .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:center}
+.mxd .hero h1{font-size:clamp(36px,4.6vw,58px);line-height:1.06;font-weight:800;letter-spacing:-.03em}
+.mxd .hero h1 span{display:block;background:linear-gradient(90deg,#2f6bff,#5b9cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mxd .hero .lead{font-size:18px}
+.mxd .hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.mxd .hero .feats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.mxd .hero .feats div{display:flex;gap:10px;align-items:center;font-size:13px;font-weight:600;color:#dbe4ff;line-height:1.3}
+.mxd .hero .feats svg{color:var(--blue-2)}
+.mxd .hero-media{position:relative}
+.mxd .hero-media::before{content:"";position:absolute;inset:8% -4% -6% 6%;background:radial-gradient(closest-side,rgba(31,91,255,.55),transparent);filter:blur(30px);z-index:0}
+.mxd .hero-media img{position:relative;z-index:1;width:100%;height:auto;aspect-ratio:873/545;object-fit:cover;border-radius:22px;border:1px solid var(--line);box-shadow:0 40px 80px -30px rgba(0,0,0,.8)}
+
+/* trust bar */
+.mxd .trust{padding:0;border-block:1px solid rgba(96,140,255,.18);background:var(--navy-2)}
+.mxd .trust .wrap{display:grid;grid-template-columns:repeat(5,1fr)}
+.mxd .trust div{display:flex;gap:14px;align-items:center;padding:28px 18px;font-size:14px;font-weight:600;line-height:1.35;color:#dbe4ff}
+.mxd .trust div+div{border-left:1px solid rgba(96,140,255,.18)}
+.mxd .trust svg.i{width:30px;height:30px;color:var(--blue-2)}
+
+/* challenges */
+.mxd .challenges .wrap{display:grid;grid-template-columns:.85fr 1.6fr;gap:56px;align-items:center}
+.mxd .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.mxd .challenges .card{padding:22px}
+.mxd .challenges .ic{width:42px;height:42px}
+
+/* services */
+.mxd .services{background:linear-gradient(180deg,var(--navy),var(--navy-2))}
+.mxd .head-row{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:44px}
+.mxd .svc{display:flex;gap:18px;align-items:flex-start;position:relative;padding-right:40px}
+.mxd .svc h3{margin-top:4px}
+.mxd .svc .arrow{position:absolute;right:22px;bottom:22px;color:var(--blue-2);transition:transform .2s}
+.mxd .svc:hover .arrow{transform:translateX(4px)}
+
+/* local search */
+.mxd .local .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:64px;align-items:center}
+.mxd .serp{position:relative;display:grid;grid-template-columns:1.25fr 1fr;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 30px 70px -30px rgba(11,22,51,.45);border:1px solid #e3e9f6}
+.mxd .serp-list{padding:18px 18px 8px}
+.mxd .gbar{display:flex;align-items:center;gap:10px;border:1px solid #e3e9f6;border-radius:999px;padding:8px 14px;font-size:13px;color:#3c4a6b}
+.mxd .glogo{font-weight:700;font-size:17px;letter-spacing:-.02em}
+.mxd .glogo b:nth-child(1){color:#4285f4}.mxd .glogo b:nth-child(2){color:#ea4335}.mxd .glogo b:nth-child(3){color:#fbbc05}.mxd .glogo b:nth-child(4){color:#4285f4}.mxd .glogo b:nth-child(5){color:#34a853}.mxd .glogo b:nth-child(6){color:#ea4335}
+.mxd .gtabs{display:flex;gap:18px;font-size:12px;color:#6b7896;margin:12px 4px;border-bottom:1px solid #eef2fa}
+.mxd .gtabs span{padding-bottom:8px}.mxd .gtabs span:first-child{color:var(--blue);border-bottom:2px solid var(--blue)}
+.mxd .biz{display:flex;gap:12px;align-items:center;padding:12px 4px;border-bottom:1px solid #f0f3fa}
+.mxd .biz:last-child{border:0}
+.mxd .biz .av{width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#dbe6ff,#b9ccff);display:grid;place-items:center;color:var(--blue)}
+.mxd .biz strong{font-size:13.5px;display:block}
+.mxd .biz small{font-size:12px;color:#6b7896;display:block;line-height:1.45}
+.mxd .biz .st{color:#f5a623;letter-spacing:1px}
+.mxd .biz .acts{margin-left:auto;display:flex;gap:8px;color:var(--blue)}
+.mxd .biz .acts svg{width:18px;height:18px}
+.mxd .map{background:#e9eff8}
+.mxd .map svg{width:100%;height:100%;display:block}
+
+/* journey */
+.mxd .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:48px;position:relative}
+.mxd .steps::before{content:"";position:absolute;top:32px;left:12%;right:12%;border-top:2px dashed rgba(96,140,255,.4)}
+.mxd .step{text-align:center;position:relative}
+.mxd .step .n{width:64px;height:64px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;background:var(--blue);box-shadow:0 0 0 8px rgba(31,91,255,.18),0 12px 30px -8px rgba(31,91,255,.9)}
+.mxd .step .n svg.i{width:26px;height:26px}
+.mxd .step h3{font-size:18px;font-weight:700}
+.mxd .step p{color:var(--muted-d);font-size:14.5px;max-width:230px;margin:6px auto 0}
+
+/* specialties */
+.mxd .center{text-align:center}.mxd .center .lead{margin-inline:auto}
+.mxd .grid5{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:44px}
+.mxd .spec{background:#fff;border:1px solid #e3e9f6;border-radius:var(--r);padding:28px 20px;text-align:center;transition:transform .25s,box-shadow .25s}
+.mxd .spec:hover{transform:translateY(-4px);box-shadow:0 24px 40px -24px rgba(31,91,255,.45)}
+.mxd .spec .ic{margin:0 auto}
+.mxd .spec h3{font-size:16px;font-weight:700;margin:16px 0 6px}
+.mxd .spec p{font-size:13.5px;color:var(--muted)}
+
+/* growth */
+.mxd .growth{background:radial-gradient(800px 400px at 100% 0%,#2a6bff,transparent 60%),linear-gradient(120deg,#061437,#0a2a8a 55%,#1447e6)}
+.mxd .growth .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:64px;align-items:center}
+.mxd .dash{background:rgba(5,11,31,.75);border:1px solid rgba(143,180,255,.3);border-radius:18px;padding:22px;box-shadow:0 30px 60px -30px rgba(0,0,0,.7);backdrop-filter:blur(6px)}
+.mxd .dash-top{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:14px}
+.mxd .dash-top span{font-size:11px;color:var(--muted-d);font-weight:600;border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.mxd .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}
+.mxd .kpis div{border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:12px;color:var(--muted-d)}
+.mxd .kpis b{display:block;font-size:24px;color:#fff;letter-spacing:-.02em}
+.mxd .kpis b::before{content:"↑ ";color:#34d399;font-size:18px}
+.mxd .dash svg{width:100%;height:auto;display:block}
+.mxd .growth .lead{color:#c9d6ff}
+.mxd .growth .btn{margin-top:28px}
+
+/* why */
+.mxd .why .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.mxd .photo{border-radius:20px;overflow:hidden;aspect-ratio:4/3;background:linear-gradient(135deg,#cfdcf5,#eef3fc);box-shadow:0 30px 60px -30px rgba(11,22,51,.45);position:relative}
+.mxd .photo img{width:100%;height:100%;object-fit:cover}
+.mxd .photo .ph{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#6b7896;font-size:14px;font-weight:600;padding:20px}
+
+/* process */
+.mxd .process{background:linear-gradient(180deg,var(--navy-2),var(--navy))}
+.mxd .grid3b{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.mxd .pstep{display:flex;gap:18px;align-items:flex-start}
+.mxd .pstep .n{width:56px;height:56px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--blue);box-shadow:0 12px 28px -8px rgba(31,91,255,.9)}
+.mxd .pstep h3{font-size:18px;font-weight:700}
+.mxd .pstep p{color:var(--muted-d);font-size:14.5px;margin-top:4px}
+
+/* testimonials */
+.mxd .quote{display:flex;flex-direction:column}
+.mxd .quote .qm{font-size:44px;line-height:1;color:var(--blue-2);font-weight:800;height:26px}
+.mxd .quote p{color:#dbe4ff;font-size:15px;margin:14px 0 22px;flex:1}
+.mxd .who{display:flex;gap:12px;align-items:center}
+.mxd .who .av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-weight:700;background:linear-gradient(135deg,#1f5bff,#5b9cff)}
+.mxd .who strong{display:block;font-size:14.5px}
+.mxd .who small{color:var(--muted-d);font-size:12.5px}
+
+/* faq */
+.mxd .faq .wrap{display:grid;grid-template-columns:.8fr 1.6fr;gap:56px}
+.mxd details{border-bottom:1px solid rgba(96,140,255,.22)}
+.mxd summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;padding:20px 0;font-weight:700;font-size:16px}
+.mxd summary::-webkit-details-marker{display:none}
+.mxd summary::after{content:"+";color:var(--blue-2);font-size:22px;line-height:1;transition:transform .2s}
+.mxd details[open] summary::after{transform:rotate(45deg)}
+.mxd details p{color:var(--muted-d);padding:0 0 20px;max-width:680px}
+
+/* cta */
+.mxd .cta{padding:0 0 96px}
+.mxd .cta-box{border-radius:24px;padding:48px 56px;display:flex;gap:32px;align-items:center;background:radial-gradient(500px 260px at 0% 0%,rgba(255,255,255,.18),transparent 60%),linear-gradient(110deg,#1447e6,#1f5bff 50%,#3b82ff);box-shadow:0 40px 80px -30px rgba(31,91,255,.8);overflow:hidden}
+.mxd .cta-box .tooth{width:84px;height:84px;flex:none;color:#fff;opacity:.95}
+.mxd .cta-box h2{font-size:clamp(26px,3vw,36px)}
+.mxd .cta-box p{color:#e2eaff;margin-top:8px;max-width:520px}
+.mxd .cta-box .eyebrow{color:#cfe0ff}
+.mxd .cta-box .btn{margin-left:auto;flex:none}
+
+@media (max-width:1024px){
+  .mxd .hero .wrap,.mxd .challenges .wrap,.mxd .local .wrap,.mxd .growth .wrap,.mxd .why .wrap,.mxd .faq .wrap{grid-template-columns:1fr;gap:40px}
+  .mxd .trust .wrap{grid-template-columns:repeat(3,1fr)}
+  .mxd .trust div:nth-child(4){border-left:0}
+  .mxd .grid5{grid-template-columns:repeat(3,1fr)}
+  .mxd .hero .feats{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:760px){
+  .mxd section{padding:64px 0}
+  .mxd .wrap{width:calc(100% - 32px)}
+  .mxd .grid3,.mxd .grid3b,.mxd .steps{grid-template-columns:1fr}
+  .mxd .grid5{grid-template-columns:repeat(2,1fr)}
+  .mxd .trust .wrap{grid-template-columns:1fr 1fr}
+  .mxd .trust div{border-left:0!important;padding:18px 8px}
+  .mxd .steps::before{display:none}
+  .mxd .head-row{flex-direction:column;align-items:flex-start}
+  .mxd .serp{grid-template-columns:1fr}.mxd .map{height:180px}
+  .mxd .cta-box{flex-direction:column;align-items:flex-start;padding:36px 26px}
+  .mxd .cta-box .btn{margin-left:0}
+  .mxd .kpis b{font-size:18px}
+}
+</style>
+<!-- END mxd page styles -->
+</head>
+<body style="margin:0;background:#050b1f">
+
+<!-- BEGIN mxd page content -->
+<div class="mxd">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-tooth" viewBox="0 0 24 24"><path d="M12 5.5C10.5 4 8.5 3.5 7 3.5 4.5 3.5 3 5.5 3 8c0 2.5 1 4 1.5 6 .6 2.5.8 6.5 2.5 6.5 2 0 1.8-5 5-5s3 5 5 5c1.7 0 1.9-4 2.5-6.5.5-2 1.5-3.5 1.5-6 0-2.5-1.5-4.5-4-4.5-1.5 0-3.5.5-5 2Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0"/><path d="M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16v-4M12 16V8M17 16v-7"/></symbol>
+    <symbol id="i-funnel" viewBox="0 0 24 24"><path d="M3 4h18l-7 8v6l-4 2v-8Z"/></symbol>
+    <symbol id="i-mega" viewBox="0 0 24 24"><path d="M3 11v2a1 1 0 0 0 1 1h3l6 5V5L7 10H4a1 1 0 0 0-1 1Z"/><path d="M17 8a5 5 0 0 1 0 8"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9Z"/></symbol>
+    <symbol id="i-ads" viewBox="0 0 24 24"><path d="M9.5 4 3 16a3 3 0 1 0 5.2 3L14.7 7"/><path d="M14.5 4 21 16a3 3 0 1 1-5.2 3L9.3 7a3 3 0 0 1 5.2-3Z"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-cursor" viewBox="0 0 24 24"><path d="m4 4 7 17 2.5-7.5L21 11Z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M9 15h2M13 15h2"/></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><path d="M3 9c3 6 15 6 18 0"/><path d="M5 11c2 7 12 7 14 0"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8Z"/><path d="M19 17l.7 1.8 1.8.7-1.8.7L19 22l-.7-1.8-1.8-.7 1.8-.7Z"/></symbol>
+    <symbol id="i-implant" viewBox="0 0 24 24"><path d="M7 3h10v4a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3Z"/><path d="M9 13h6M9.5 16h5M10 19h4M12 10v12"/></symbol>
+    <symbol id="i-kid" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M8.5 14.5a4.5 4.5 0 0 0 7 0"/></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2"/><path d="M9 15 6 12c1-4 4-8 12-9-1 8-5 11-9 12Z"/><circle cx="14.5" cy="9.5" r="1.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24"><path d="m3 11 18-8-8 18-2-8Z"/></symbol>
+  </defs>
+</svg>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Dental Marketing Agency</p>
+      <h1>More Patients.<br>More Appointments.<span>Predictable Growth.</span></h1>
+      <p class="lead">We help dental clinics get found on Google, run high-performing ads and build modern websites that bring in more patients.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="/contact/">Get Your Free Dental Marketing Audit <svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost" href="/case-studies/">See How We Grow Clinics</a>
+      </div>
+      <div class="feats">
+        <div><svg class="i"><use href="#i-pin"/></svg>Local SEO &amp; Google Maps</div>
+        <div><svg class="i"><use href="#i-target"/></svg>Targeted Google Ads</div>
+        <div><svg class="i"><use href="#i-monitor"/></svg>High-Converting Websites</div>
+        <div><svg class="i"><use href="#i-shield"/></svg>Proven Results</div>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="assets/dental-hero.webp" srcset="assets/dental-hero-1400.webp 1400w, assets/dental-hero.webp 2400w" sizes="(max-width:1024px) 100vw, 620px" width="2400" height="1498" alt="Smiling dentist in a modern clinic with Google local search results, website traffic and new appointment growth cards" fetchpriority="high">
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust" aria-label="Why clinics trust us">
+  <div class="wrap">
+    <div><svg class="i"><use href="#i-tooth"/></svg>7+ Years Experience</div>
+    <div><svg class="i"><use href="#i-users"/></svg>Dental Marketing Specialists</div>
+    <div><svg class="i"><use href="#i-trend"/></svg>Proven Results for Dental Clinics</div>
+    <div><svg class="i"><use href="#i-pin"/></svg>Local SEO &amp; Google Maps Top Rankings</div>
+    <div><svg class="i"><use href="#i-shield"/></svg>Trusted by Dental Practices</div>
+  </div>
+</section>
+
+<!-- CHALLENGES -->
+<section class="challenges">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">The Challenges</p>
+      <h2>What Dentists Are Facing</h2>
+      <p class="lead">Growing a dental practice isn't just about great care. It's about getting found, building trust and turning searchers into patients.</p>
+      <p style="margin-top:24px"><a class="link" href="/contact/">Get Your Free Audit <svg class="i"><use href="#i-arrow"/></svg></a></p>
+    </div>
+    <div class="grid3">
+      <div class="card"><div class="ic"><svg class="i"><use href="#i-search"/></svg></div><h3>Low Online Visibility</h3><p>Your practice isn't showing up when people search for dentists in your area.</p></div>
+      <div class="card"><div class="ic"><svg class="i"><use href="#i-funnel"/></svg></div><h3>Irrelevant Leads</h3><p>Getting inquiries, but not the right patients for your services.</p></div>
+      <div class="card"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h3>Competitor Pressure</h3><p>Other clinics are ranking higher and taking your potential patients.</p></div>
+      <div class="card"><div class="ic"><svg class="i"><use href="#i-monitor"/></svg></div><h3>Outdated Website</h3><p>Your website doesn't convert visitors into appointments.</p></div>
+      <div class="card"><div class="ic"><svg class="i"><use href="#i-mega"/></svg></div><h3>Limited Brand Awareness</h3><p>Patients don't know what makes your practice unique.</p></div>
+      <div class="card"><div class="ic"><svg class="i"><use href="#i-star"/></svg></div><h3>Negative Reviews</h3><p>Bad reviews can hurt your reputation and trust.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <p class="eyebrow">Our Services</p>
+        <h2>Complete Dental Marketing Solutions</h2>
+        <p class="lead">Everything you need to attract more patients, build trust and grow your practice, all in one place.</p>
+      </div>
+      <a class="link" href="/services/">View All Services <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="grid3">
+      <a class="card svc" href="/services/seo/"><div class="ic"><svg class="i"><use href="#i-search"/></svg></div><div><h3>Dental SEO</h3><p>Rank higher on Google and attract local patients.</p></div><svg class="i arrow"><use href="#i-arrow"/></svg></a>
+      <a class="card svc" href="/services/google-ads/"><div class="ic"><svg class="i"><use href="#i-ads"/></svg></div><div><h3>Google Ads</h3><p>Get in front of ready-to-book patients in your area.</p></div><svg class="i arrow"><use href="#i-arrow"/></svg></a>
+      <a class="card svc" href="/services/google-maps/"><div class="ic"><svg class="i"><use href="#i-pin"/></svg></div><div><h3>Google Maps</h3><p>Dominate local search and Google Maps results.</p></div><svg class="i arrow"><use href="#i-arrow"/></svg></a>
+      <a class="card svc" href="/services/web-design/"><div class="ic"><svg class="i"><use href="#i-monitor"/></svg></div><div><h3>Dental Website Design</h3><p>Modern, fast and patient-friendly websites that convert.</p></div><svg class="i arrow"><use href="#i-arrow"/></svg></a>
+      <a class="card svc" href="/services/social-media/"><div class="ic"><svg class="i"><use href="#i-insta"/></svg></div><div><h3>Social Media Marketing</h3><p>Build your brand and engage your community.</p></div><svg class="i arrow"><use href="#i-arrow"/></svg></a>
+      <a class="card svc" href="/services/reputation-management/"><div class="ic"><svg class="i"><use href="#i-star"/></svg></div><div><h3>Reputation Management</h3><p>Get more 5-star reviews and build lasting credibility.</p></div><svg class="i arrow"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- LOCAL SEARCH -->
+<section class="local light">
+  <div class="wrap">
+    <div class="serp" aria-hidden="true">
+      <div class="serp-list">
+        <div class="gbar"><span class="glogo"><b>G</b><b>o</b><b>o</b><b>g</b><b>l</b><b>e</b></span>dentist near me<svg class="i" style="margin-left:auto;width:16px;height:16px;color:#4285f4"><use href="#i-search"/></svg></div>
+        <div class="gtabs"><span>All</span><span>Maps</span><span>Images</span><span>Shopping</span><span>News</span></div>
+        <div class="biz"><div class="av"><svg class="i"><use href="#i-tooth"/></svg></div><div><strong>1. Smile Dental Care</strong><small><span class="st">★★★★★</span> 4.9 (128)</small><small>Open · Closes 7 PM</small></div><div class="acts"><svg class="i"><use href="#i-phone"/></svg><svg class="i"><use href="#i-nav"/></svg></div></div>
+        <div class="biz"><div class="av"><svg class="i"><use href="#i-tooth"/></svg></div><div><strong>2. Bright Smiles Dental</strong><small><span class="st">★★★★★</span> 4.8 (96)</small><small>Open · Closes 6 PM</small></div><div class="acts"><svg class="i"><use href="#i-phone"/></svg><svg class="i"><use href="#i-nav"/></svg></div></div>
+        <div class="biz"><div class="av"><svg class="i"><use href="#i-tooth"/></svg></div><div><strong>3. Family Dental Clinic</strong><small><span class="st">★★★★☆</span> 4.7 (74)</small><small>Open · Closes 7 PM</small></div><div class="acts"><svg class="i"><use href="#i-phone"/></svg><svg class="i"><use href="#i-nav"/></svg></div></div>
+      </div>
+      <div class="map">
+        <svg viewBox="0 0 240 320" preserveAspectRatio="xMidYMid slice">
+          <rect width="240" height="320" fill="#e9eff8"/>
+          <path d="M150 0c-10 40 30 70 20 120s-40 60-30 110 40 60 40 90h60V0Z" fill="#c9dcf5"/>
+          <g stroke="#fff" stroke-width="7" fill="none"><path d="M0 90h240M0 210h240M60 0v320M130 0v320"/></g>
+          <g stroke="#fbe3a4" stroke-width="5" fill="none"><path d="M0 150c60-10 120 20 240-10M20 0c20 80 60 200 40 320"/></g>
+          <g stroke="#fff" stroke-width="3" fill="none" opacity=".9"><path d="M0 40h240M0 260h240M20 0v320M100 0v320M190 0v320"/></g>
+          <g fill="#ea4335"><path d="M92 108a12 12 0 1 1 24 0c0 10-12 22-12 22s-12-12-12-22Z"/><path d="M142 150a12 12 0 1 1 24 0c0 10-12 22-12 22s-12-12-12-22Z"/><path d="M66 196a12 12 0 1 1 24 0c0 10-12 22-12 22s-12-12-12-22Z"/></g>
+          <g fill="#fff"><circle cx="104" cy="108" r="4.5"/><circle cx="154" cy="150" r="4.5"/><circle cx="78" cy="196" r="4.5"/></g>
+        </svg>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Local Search Matters</p>
+      <h2>Be the Practice Patients Find First</h2>
+      <p class="lead">When someone searches "dentist near me," your practice should be at the top, not your competitors.</p>
+      <ul class="checks">
+        <li>Rank in Google's local map pack</li>
+        <li>Get more calls and appointment requests</li>
+        <li>Dominate your local area</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PATIENT JOURNEY -->
+<section class="journey">
+  <div class="wrap center">
+    <p class="eyebrow">The Patient Journey</p>
+    <h2>From Search to Smile, We Get You There</h2>
+    <div class="steps">
+      <div class="step"><div class="n"><svg class="i"><use href="#i-search"/></svg></div><h3>1. Search</h3><p>Patients search for a dentist in their area.</p></div>
+      <div class="step"><div class="n"><svg class="i"><use href="#i-cursor"/></svg></div><h3>2. Click</h3><p>They find your website, Google listing or ad.</p></div>
+      <div class="step"><div class="n"><svg class="i"><use href="#i-cal"/></svg></div><h3>3. Book</h3><p>They schedule an appointment with your practice.</p></div>
+      <div class="step"><div class="n"><svg class="i"><use href="#i-tooth"/></svg></div><h3>4. Visit</h3><p>They become loyal patients and refer others.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALTIES -->
+<section class="specialties light">
+  <div class="wrap center">
+    <p class="eyebrow">Dental Specialties</p>
+    <h2>We Work With All Types of Dental Practices</h2>
+    <div class="grid5">
+      <div class="spec"><div class="ic"><svg class="i"><use href="#i-tooth"/></svg></div><h3>General Dentistry</h3><p>Preventive care, cleanings and routine treatments.</p></div>
+      <div class="spec"><div class="ic"><svg class="i"><use href="#i-smile"/></svg></div><h3>Orthodontics</h3><p>Braces, aligners and bite correction.</p></div>
+      <div class="spec"><div class="ic"><svg class="i"><use href="#i-sparkle"/></svg></div><h3>Cosmetic Dentistry</h3><p>Whiter smiles, veneers and smile makeovers.</p></div>
+      <div class="spec"><div class="ic"><svg class="i"><use href="#i-implant"/></svg></div><h3>Implants</h3><p>Permanent, natural-looking tooth replacement.</p></div>
+      <div class="spec"><div class="ic"><svg class="i"><use href="#i-kid"/></svg></div><h3>Pediatric Dentistry</h3><p>Gentle care for healthy smiles from childhood.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GROWTH -->
+<section class="growth">
+  <div class="wrap">
+    <div class="dash" aria-hidden="true">
+      <div class="dash-top">Traffic &amp; Leads <span>Last 6 months</span></div>
+      <div class="kpis">
+        <div>Organic Traffic<b>142%</b></div>
+        <div>New Patients<b>87%</b></div>
+        <div>Conversions<b>64%</b></div>
+      </div>
+      <svg viewBox="0 0 520 200">
+        <defs><linearGradient id="mxdg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b82ff" stop-opacity=".55"/><stop offset="1" stop-color="#3b82ff" stop-opacity="0"/></linearGradient></defs>
+        <g stroke="rgba(143,180,255,.15)"><path d="M0 40h520M0 90h520M0 140h520M0 190h520"/></g>
+        <path d="M0 175 50 165 95 170 140 150 185 155 230 130 275 138 320 110 365 115 410 80 455 70 520 22V200H0Z" fill="url(#mxdg)"/>
+        <path d="M0 175 50 165 95 170 140 150 185 155 230 130 275 138 320 110 365 115 410 80 455 70 520 22" fill="none" stroke="#5b9cff" stroke-width="3"/>
+        <path d="M0 188 60 184 120 180 180 176 240 168 300 162 360 150 420 140 520 124" fill="none" stroke="#8fb4ff" stroke-width="2" stroke-dasharray="5 6" opacity=".6"/>
+        <circle cx="520" cy="22" r="6" fill="#fff" stroke="#3b82ff" stroke-width="3"/>
+      </svg>
+    </div>
+    <div>
+      <p class="eyebrow" style="color:#9fc0ff">Real Growth</p>
+      <h2>More Visibility. More Leads. More Smiles.</h2>
+      <p class="lead">Our data-driven strategies help dental practices increase website traffic, generate quality leads and book more appointments, month after month.</p>
+      <a class="btn btn-white" href="/contact/">Get Your Free Audit <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why light">
+  <div class="wrap">
+    <div class="photo">
+      <!-- Replace with a high-resolution clinic interior photo from the Media Library -->
+      <img src="assets/dental-clinic.jpg" alt="Modern dental treatment room with patient chair" loading="lazy" onerror="this.remove()">
+      <div class="ph">Clinic interior photo</div>
+    </div>
+    <div>
+      <p class="eyebrow">Why Mark X Media</p>
+      <h2>Why Dental Practices Choose Mark X Media</h2>
+      <p class="lead">We understand the dental industry. Our team combines proven digital marketing strategies with real industry insights to help you attract, engage and convert more patients.</p>
+      <ul class="checks">
+        <li>Industry-specific expertise</li>
+        <li>Transparent reporting &amp; communication</li>
+        <li>Results-driven strategies</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process">
+  <div class="wrap">
+    <p class="eyebrow">Our Process</p>
+    <h2>A Simple 3-Step Plan to Get More Patients</h2>
+    <div class="grid3b">
+      <div class="pstep"><div class="n"><svg class="i"><use href="#i-search"/></svg></div><div><h3>1. Audit</h3><p>We analyze your current online presence, competitors and opportunities.</p></div></div>
+      <div class="pstep"><div class="n"><svg class="i"><use href="#i-rocket"/></svg></div><div><h3>2. Strategy</h3><p>We build a custom plan for your goals, services and location.</p></div></div>
+      <div class="pstep"><div class="n"><svg class="i"><use href="#i-trend"/></svg></div><div><h3>3. Growth</h3><p>We execute, optimize and scale for long-term results.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS: replace the bracketed placeholders with real client quotes before publishing -->
+<section class="testimonials">
+  <div class="wrap">
+    <p class="eyebrow">Client Testimonials</p>
+    <h2>What Dentists Are Saying</h2>
+    <div class="grid3" style="margin-top:44px">
+      <div class="card quote"><div class="qm">“</div><p>[Client quote: e.g. how their local rankings and new-patient bookings improved.]</p><div class="who"><div class="av">A</div><div><strong>[Client name]</strong><small>[Practice type]</small></div></div></div>
+      <div class="card quote"><div class="qm">“</div><p>[Client quote: e.g. on communication, reporting and appointment growth.]</p><div class="who"><div class="av">B</div><div><strong>[Client name]</strong><small>[Practice type]</small></div></div></div>
+      <div class="card quote"><div class="qm">“</div><p>[Client quote: e.g. on the website rebuild and Google Ads results.]</p><div class="who"><div class="av">C</div><div><strong>[Client name]</strong><small>[Practice type]</small></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Frequently Asked Questions</p>
+      <h2>Common Questions</h2>
+    </div>
+    <div>
+      <details open><summary>How long does it take to see results?</summary><p>Google Ads can start bringing calls within the first weeks. Local SEO and Google Maps rankings usually show clear movement within 3 to 6 months and keep compounding after that.</p></details>
+      <details><summary>Do you work with all types of dental practices?</summary><p>Yes. We work with general, cosmetic, orthodontic, implant and pediatric practices, from single-location clinics to multi-location groups.</p></details>
+      <details><summary>What makes your approach different?</summary><p>We focus only on what moves patient bookings: local visibility, qualified leads and a website that converts, with transparent monthly reporting so you always see what's working.</p></details>
+      <details><summary>How much does dental marketing cost?</summary><p>It depends on your goals, location and competition. After a free audit we recommend a plan and a budget that fit your practice, with no long-term lock-in.</p></details>
+      <details><summary>Can you help with my existing website?</summary><p>Yes. We can optimize and improve your current site, or rebuild it if it's holding your practice back.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap">
+    <div class="cta-box">
+      <svg class="i tooth" style="width:84px;height:84px;stroke-width:1.4"><use href="#i-tooth"/></svg>
+      <div>
+        <p class="eyebrow">Ready to fill more chairs?</p>
+        <h2>Let's Grow Your Dental Practice</h2>
+        <p>Get a free, no-obligation audit and discover how we can help you attract more patients and increase appointments.</p>
+      </div>
+      <a class="btn btn-white" href="/contact/">Get Free Consultation <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+</div>
+<!-- END mxd page content -->
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How long does it take to see results?","acceptedAnswer":{"@type":"Answer","text":"Google Ads can start bringing calls within the first weeks. Local SEO and Google Maps rankings usually show clear movement within 3 to 6 months and keep compounding after that."}},
+{"@type":"Question","name":"Do you work with all types of dental practices?","acceptedAnswer":{"@type":"Answer","text":"Yes. We work with general, cosmetic, orthodontic, implant and pediatric practices, from single-location clinics to multi-location groups."}},
+{"@type":"Question","name":"What makes your approach different?","acceptedAnswer":{"@type":"Answer","text":"We focus only on what moves patient bookings: local visibility, qualified leads and a website that converts, with transparent monthly reporting so you always see what's working."}},
+{"@type":"Question","name":"How much does dental marketing cost?","acceptedAnswer":{"@type":"Answer","text":"It depends on your goals, location and competition. After a free audit we recommend a plan and a budget that fit your practice, with no long-term lock-in."}},
+{"@type":"Question","name":"Can you help with my existing website?","acceptedAnswer":{"@type":"Answer","text":"Yes. We can optimize and improve your current site, or rebuild it if it's holding your practice back."}}]}
+</script>
+</body>
+</html>
