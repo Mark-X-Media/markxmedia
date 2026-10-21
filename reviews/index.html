@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Client Reviews & Testimonials | Mark X Media</title>
+<meta name="description" content="See what clients say about Mark X Media. Real reviews for SEO, paid ads, social media, web and app development. Get your free marketing audit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#050b1f}</style>
+<!-- BEGIN mxr page styles (hero + CTA). The reviews section styles come from testimonials-section.html -->
+<style>
+.mxr{--navy:#050b1f;--navy-2:#081330;--line:rgba(96,140,255,.28);--blue:#1f5bff;--blue-2:#3b82ff;--y:#ffd91f;--muted-d:#a9b6d6;
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}
+.mxr *,.mxr *::before,.mxr *::after{box-sizing:border-box}
+.mxr h1,.mxr h2,.mxr p,.mxr blockquote,.mxr figure{margin:0}
+.mxr a{color:inherit;text-decoration:none}
+.mxr .wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+.mxr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 28px;border-radius:999px;font-weight:700;font-size:16px;transition:transform .2s,box-shadow .2s,background .2s}
+.mxr .btn-y{background:var(--y);color:#0b1633;box-shadow:0 12px 30px -10px rgba(255,217,31,.6)}
+.mxr .btn-y:hover{transform:translateY(-2px);background:#ffe55c}
+.mxr .btn-ghost{border:1.5px solid rgba(255,255,255,.35)}
+.mxr .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+.mxr .btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.mxr .stars{display:flex;gap:2px;color:var(--y)}
+.mxr .stars svg{width:18px;height:18px;fill:currentColor}
+
+/* hero */
+.mxr .hero{padding:84px 0 76px;background:radial-gradient(800px 460px at 88% 10%,rgba(31,91,255,.38),transparent 60%),radial-gradient(520px 360px at 0% 100%,rgba(255,217,31,.10),transparent 60%),var(--navy)}
+.mxr .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.mxr .pill{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:rgba(31,91,255,.12);border-radius:999px;padding:8px 16px;font-size:13px;font-weight:700;color:#dbe4ff}
+.mxr .pill b{color:var(--y)}
+.mxr h1{font-size:clamp(36px,4.8vw,60px);line-height:1.05;font-weight:800;letter-spacing:-.03em;margin-top:22px}
+.mxr h1 span{background:linear-gradient(90deg,#ffd91f,#ffe98a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mxr .lead{font-size:18px;color:var(--muted-d);margin-top:20px;max-width:560px}
+.mxr .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.mxr .micro{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px;font-size:13.5px;font-weight:600;color:#dbe4ff}
+.mxr .micro span::before{content:"\2713";color:var(--y);font-weight:800;margin-right:8px}
+.mxr .stats{display:grid;grid-template-columns:repeat(3,auto);gap:12px 40px;justify-content:start;margin-top:40px;padding-top:28px;border-top:1px solid rgba(96,140,255,.2)}
+.mxr .stats b{display:block;font-size:30px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.mxr .stats span{font-size:13px;color:var(--muted-d);font-weight:600}
+.mxr .feat{background:#fff;color:#0b1633;border-radius:20px;padding:32px 30px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8);position:relative}
+.mxr .feat::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border-radius:20px;background:var(--y);z-index:-1}
+.mxr .feat .stars{color:#f2c800;margin-bottom:14px}
+.mxr .feat blockquote{font-size:18px;line-height:1.6;font-weight:600;color:#1a2547}
+.mxr .feat figcaption{display:flex;align-items:center;gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid #e3e9f5;font-size:14px;color:#5b6785}
+.mxr .feat figcaption b{display:block;color:#0b1633;font-size:15px}
+.mxr .feat .av{width:46px;height:46px;border-radius:50%;background:var(--y);display:grid;place-items:center;font-weight:800;color:#0b1633}
+.mxr .jump{display:block;text-align:center;margin-top:18px;font-size:14px;font-weight:700;color:#dbe4ff}
+.mxr .jump:hover{color:#fff}
+
+/* closing CTA */
+.mxr .cta{padding:84px 0;background:linear-gradient(135deg,#123bd1,#1f5bff 60%,#3b82ff);text-align:center}
+.mxr .cta h2{font-size:clamp(28px,3.6vw,42px);line-height:1.15;font-weight:800;letter-spacing:-.02em}
+.mxr .cta p{margin:14px auto 0;max-width:560px;color:#dbe4ff;font-size:17px}
+.mxr .cta .ctas{justify-content:center}
+
+@media (max-width:980px){
+  .mxr .hero{padding:56px 0 56px}
+  .mxr .hero .wrap{grid-template-columns:1fr;gap:44px}
+  .mxr .feat::before{inset:-10px 10px 10px -10px}
+}
+@media (max-width:560px){
+  .mxr .btn{width:100%}
+  .mxr .stats{grid-template-columns:repeat(3,1fr);gap:12px;justify-content:stretch}
+  .mxr .stats b{font-size:24px}
+}
+</style>
+<!-- END mxr page styles -->
+</head>
+<body>
+<!-- BEGIN mxr hero -->
+<div class="mxr">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="pill"><span class="stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg></span><b>4.9</b> average rating from our clients</div>
+      <h1>Real Results From <span>Real Clients</span></h1>
+      <p class="lead">Brands across Pakistan, the UAE and the USA trust Mark X Media to bring in more leads and sales. Read their stories, then let us build yours.</p>
+      <div class="ctas">
+        <a class="btn btn-y" href="/contact/">Get My Free Marketing Audit &rarr;</a>
+        <a class="btn btn-ghost" href="#reviews">Read Client Reviews</a>
+      </div>
+      <div class="micro"><span>Free, no-obligation audit</span><span>No long-term contract</span><span>Reply within 24 hours</span></div>
+      <div class="stats">
+        <div><b>4.9/5</b><span>Client rating</span></div>
+        <div><b>15+</b><span>Happy clients</span></div>
+        <div><b>3</b><span>Countries served</span></div>
+      </div>
+    </div>
+    <div>
+      <figure class="feat">
+        <div class="stars" role="img" aria-label="5 out of 5 stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg></div>
+        <blockquote>&ldquo;REPLACE WITH YOUR BEST REAL CLIENT QUOTE: one specific result (leads, revenue, rankings) works best.&rdquo;</blockquote>
+        <figcaption><div class="av">CN</div><div><b>Client Name</b>Role, Company &middot; City</div></figcaption>
+      </figure>
+      <a class="jump" href="#reviews">See all reviews &darr;</a>
+    </div>
+  </div>
+</section>
+</div>
+<!-- END mxr hero -->
+
+<!-- BEGIN reviews section (generated from testimonials-section.html, grid layout) -->
+<!--
+  MARK X MEDIA - GLOBAL TESTIMONIALS SECTION TEMPLATE
+  Paste this whole file into an Elementor HTML widget (or save as a global template / shortcode).
+  Everything is scoped under .mxt, so it will not touch the rest of the page.
+
+  HOW TO USE
+  1. Edit the JSON in <script class="mxt-data"> (reviews, rating, user count, project types).
+  2. Options are data-attributes on the root <section class="mxt">:
+       data-layout="carousel" | "grid"     carousel = sliding cards, grid = full reviews page
+       data-filter="true" | "false"        project-type dropdown on/off
+       data-project="SEO"                  pre-filter to one project type (e.g. on a service page)
+       data-limit="6"                      max reviews shown (0 = all)
+  3. Change the heading/sub-heading text in the markup below.
+  You can place several on one page; each reads its own JSON.
+-->
+<!-- BEGIN mxt styles -->
+<style>
+.mxt{--y:#ffd91f;--y-d:#f2c800;--navy:#050b1f;--blue:#1f5bff;--ink:#0b1633;--muted:#5b6785;--line:#e3e9f5;--bg:#f4f7fd;
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);padding:88px 0;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.mxt *,.mxt *::before,.mxt *::after{box-sizing:border-box}
+.mxt h2,.mxt h3,.mxt p,.mxt figure,.mxt blockquote{margin:0}
+.mxt .mxt-wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+.mxt .mxt-head{text-align:center;margin-bottom:36px}
+.mxt .mxt-head h2{font-size:clamp(28px,3.4vw,40px);line-height:1.18;font-weight:800;letter-spacing:-.02em}
+.mxt .mxt-head p{color:var(--muted);font-size:16px;margin-top:10px}
+
+/* filter */
+.mxt .mxt-bar{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:32px}
+.mxt .mxt-bar label{font-size:14px;font-weight:700}
+.mxt .mxt-select{position:relative}
+.mxt .mxt-select select{appearance:none;-webkit-appearance:none;font:inherit;font-weight:600;font-size:15px;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:12px 46px 12px 20px;min-width:240px;cursor:pointer;transition:border-color .2s,box-shadow .2s}
+.mxt .mxt-select select:hover{border-color:#c9d5ee}
+.mxt .mxt-select select:focus-visible{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(31,91,255,.15)}
+.mxt .mxt-select::after{content:"";position:absolute;right:20px;top:50%;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.mxt .mxt-count{font-size:14px;color:var(--muted)}
+
+/* track */
+.mxt .mxt-stage{position:relative}
+.mxt .mxt-track{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:8px 4px 24px;scrollbar-width:none}
+.mxt .mxt-track::-webkit-scrollbar{display:none}
+.mxt .mxt-track>*{flex:0 0 calc((100% - 44px)/3);scroll-snap-align:start}
+.mxt[data-layout="grid"] .mxt-track{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;padding-bottom:8px}
+.mxt[data-layout="grid"] .mxt-track>*{flex:none}
+
+/* cards */
+.mxt .mxt-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px 26px;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(11,22,51,.04);transition:transform .25s,box-shadow .25s}
+.mxt .mxt-card:hover{transform:translateY(-4px);box-shadow:0 22px 40px -22px rgba(11,22,51,.3)}
+.mxt .mxt-q{width:26px;height:26px;color:var(--y-d);margin-bottom:14px}
+.mxt .mxt-stars{display:flex;gap:2px;margin-bottom:12px;color:var(--y-d)}
+.mxt .mxt-stars svg{width:16px;height:16px;fill:currentColor}
+.mxt blockquote{font-size:15.5px;line-height:1.7;color:#27324f;flex:1}
+.mxt .mxt-tag{align-self:flex-start;margin-top:18px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--blue);background:#e8efff;border-radius:999px;padding:5px 12px}
+.mxt .mxt-by{display:flex;align-items:center;gap:12px;margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.mxt .mxt-av{width:44px;height:44px;border-radius:50%;flex:none;object-fit:cover;background:var(--y);color:var(--ink);display:grid;place-items:center;font-weight:800;font-size:15px;border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
+.mxt .mxt-by b{display:block;font-size:15px;line-height:1.3}
+.mxt .mxt-by span{display:block;font-size:13px;color:var(--muted)}
+
+/* summary card (yellow) */
+.mxt .mxt-sum{background:var(--y);border-color:var(--y);justify-content:space-between;min-height:300px}
+.mxt .mxt-sum .mxt-stars{color:var(--ink)}
+.mxt .mxt-sum .mxt-stars svg{width:20px;height:20px}
+.mxt .mxt-rate{font-size:28px;font-weight:800;letter-spacing:-.02em;margin-top:4px}
+.mxt .mxt-rate small{display:block;font-size:14px;font-weight:600;margin-top:4px;opacity:.75}
+.mxt .mxt-proof{display:flex;align-items:center;gap:14px;margin-top:28px}
+.mxt .mxt-faces{display:flex}
+.mxt .mxt-faces .mxt-av{width:42px;height:42px;margin-left:-8px;background:#fff;font-size:12px;border-color:var(--y)}
+.mxt .mxt-faces .mxt-av:first-child{margin-left:0}
+.mxt .mxt-proof b{font-size:22px;font-weight:800;line-height:1.1;display:block}
+.mxt .mxt-proof span{font-size:13px;font-weight:600;opacity:.75}
+
+/* nav */
+.mxt .mxt-nav{display:flex;justify-content:center;gap:12px;margin-top:6px}
+.mxt[data-layout="grid"] .mxt-nav{display:none}
+.mxt .mxt-nav button{width:42px;height:42px;border-radius:50%;border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:background .2s,border-color .2s,opacity .2s}
+.mxt .mxt-nav button:hover:not(:disabled){background:var(--y);border-color:var(--y)}
+.mxt .mxt-nav button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.mxt .mxt-nav button:disabled{opacity:.4;cursor:default}
+.mxt .mxt-nav svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.mxt .mxt-empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
+
+@media (max-width:980px){
+  .mxt .mxt-track>*{flex-basis:calc((100% - 22px)/2)}
+  .mxt[data-layout="grid"] .mxt-track{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:640px){
+  .mxt{padding:64px 0}
+  .mxt .mxt-track>*{flex-basis:86%}
+  .mxt[data-layout="grid"] .mxt-track{grid-template-columns:1fr}
+  .mxt .mxt-select,.mxt .mxt-select select{width:100%}
+  .mxt .mxt-bar{flex-direction:column;gap:10px}
+}
+@media (prefers-reduced-motion:reduce){.mxt .mxt-track{scroll-behavior:auto}.mxt .mxt-card{transition:none}}
+</style>
+<!-- END mxt styles -->
+
+<!-- BEGIN mxt markup -->
+<section class="mxt" id="reviews" data-layout="grid" data-filter="true" data-project="" data-limit="0" aria-labelledby="mxt-title">
+  <div class="mxt-wrap">
+    <div class="mxt-head">
+      <h2 id="mxt-title">Inspiring Client Experiences</h2>
+      <p>Join us and become our next success story</p>
+    </div>
+
+    <div class="mxt-bar">
+      <label for="mxt-project">Filter by project type</label>
+      <div class="mxt-select">
+        <select id="mxt-project"><option value="">All project types</option></select>
+      </div>
+      <span class="mxt-count" aria-live="polite"></span>
+    </div>
+
+    <div class="mxt-stage">
+      <div class="mxt-track" tabindex="0" aria-label="Client testimonials"></div>
+    </div>
+    <div class="mxt-nav">
+      <button type="button" class="mxt-prev" aria-label="Previous testimonials"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <button type="button" class="mxt-next" aria-label="Next testimonials"><svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
+  </div>
+
+  <!-- EDIT ME. PLACEHOLDER DATA: replace every value below with real, verified client reviews and real totals before publishing. -->
+  <script type="application/json" class="mxt-data">
+  {
+    "rating": "4.9",
+    "ratingLabel": "Average client rating",
+    "users": "15+",
+    "usersLabel": "Happy clients",
+    "projects": ["Digital Marketing","SEO","PPC / Paid Ads","Social Media Marketing","Web Development","Mobile App Development","UI/UX Design"],
+    "reviews": [
+      {"quote":"REPLACE WITH REAL CLIENT REVIEW (SEO).","name":"Client Name","location":"City, Country","project":"SEO","rating":5,"avatar":""},
+      {"quote":"REPLACE WITH REAL CLIENT REVIEW (Web Development).","name":"Client Name","location":"City, Country","project":"Web Development","rating":5,"avatar":""},
+      {"quote":"REPLACE WITH REAL CLIENT REVIEW (PPC).","name":"Client Name","location":"City, Country","project":"PPC / Paid Ads","rating":5,"avatar":""},
+      {"quote":"REPLACE WITH REAL CLIENT REVIEW (Social Media).","name":"Client Name","location":"City, Country","project":"Social Media Marketing","rating":5,"avatar":""},
+      {"quote":"REPLACE WITH REAL CLIENT REVIEW (Mobile App).","name":"Client Name","location":"City, Country","project":"Mobile App Development","rating":5,"avatar":""},
+      {"quote":"REPLACE WITH REAL CLIENT REVIEW (UI/UX).","name":"Client Name","location":"City, Country","project":"UI/UX Design","rating":5,"avatar":""}
+    ]
+  }
+  </script>
+</section>
+<!-- END mxt markup -->
+
+<!-- BEGIN mxt script -->
+<script>
+(function(){
+  var STAR='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.1 6.6 7.2.9-5.3 5 1.4 7.2L12 18l-6.4 3.7L7 14.5 1.7 9.5l7.2-.9z"/></svg>';
+  var QUOTE='<svg class="mxt-q" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.6 5C6 6.6 3.5 9.9 3.5 14.2V19h6.3v-6.3H6.6c.1-2.2 1.3-4 3.4-5.2zM20.5 5c-3.6 1.6-6.1 4.9-6.1 9.2V19h6.3v-6.3h-3.2c.1-2.2 1.3-4 3.4-5.2z"/></svg>';
+  function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+  function stars(n){var d=el('div','mxt-stars');d.setAttribute('role','img');d.setAttribute('aria-label',n+' out of 5 stars');d.innerHTML=new Array(n+1).join(STAR);return d}
+  function initials(name){return name.split(/\s+/).slice(0,2).map(function(w){return w.charAt(0)}).join('').toUpperCase()}
+  function avatar(p){
+    if(p.avatar){var i=el('img','mxt-av');i.src=p.avatar;i.alt='';i.loading='lazy';return i}
+    return el('div','mxt-av',initials(p.name||'?'))
+  }
+
+  document.querySelectorAll('.mxt').forEach(function(root){
+    var data;try{data=JSON.parse(root.querySelector('.mxt-data').textContent)}catch(e){return}
+    var track=root.querySelector('.mxt-track'),select=root.querySelector('.mxt-select select'),
+        count=root.querySelector('.mxt-count'),bar=root.querySelector('.mxt-bar'),
+        prev=root.querySelector('.mxt-prev'),next=root.querySelector('.mxt-next'),
+        grid=root.dataset.layout==='grid',limit=parseInt(root.dataset.limit,10)||0,
+        reviews=data.reviews||[];
+
+    // project filter
+    var types=(data.projects&&data.projects.length)?data.projects:reviews.map(function(r){return r.project}).filter(function(v,i,a){return v&&a.indexOf(v)===i});
+    types.forEach(function(t){var o=el('option',null,t);o.value=t;select.appendChild(o)});
+    if(root.dataset.filter==='false'){bar.hidden=true}
+    if(root.dataset.project){select.value=root.dataset.project}
+
+    function summary(){
+      var c=el('article','mxt-card mxt-sum');
+      var top=el('div');top.appendChild(stars(5));
+      var r=el('div','mxt-rate',data.rating+' Rating');r.appendChild(el('small',null,data.ratingLabel||''));top.appendChild(r);
+      var proof=el('div','mxt-proof'),faces=el('div','mxt-faces');
+      reviews.slice(0,3).forEach(function(p){faces.appendChild(avatar(p))});
+      var t=el('div');t.appendChild(el('b',null,data.users));t.appendChild(el('span',null,data.usersLabel||''));
+      proof.appendChild(faces);proof.appendChild(t);
+      c.appendChild(top);c.appendChild(proof);return c
+    }
+    function card(p){
+      var c=el('article','mxt-card');
+      var f=el('figure');
+      f.insertAdjacentHTML('beforeend',QUOTE);
+      f.appendChild(stars(p.rating||5));
+      f.appendChild(el('blockquote',null,p.quote));
+      c.appendChild(f);
+      if(p.project)c.appendChild(el('span','mxt-tag',p.project));
+      var by=el('div','mxt-by');by.appendChild(avatar(p));
+      var w=el('div');w.appendChild(el('b',null,p.name));if(p.location)w.appendChild(el('span',null,p.location));
+      by.appendChild(w);c.appendChild(by);return c
+    }
+    function sync(){
+      if(grid)return;
+      prev.disabled=track.scrollLeft<=4;
+      next.disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-4
+    }
+    function render(){
+      var v=select.value,list=reviews.filter(function(r){return !v||r.project===v});
+      var total=list.length;if(limit)list=list.slice(0,limit);
+      track.textContent='';track.scrollLeft=0;
+      track.appendChild(summary());
+      list.forEach(function(p){track.appendChild(card(p))});
+      if(!total)track.appendChild(el('p','mxt-empty','No reviews for this project type yet.'));
+      count.textContent=total+(total===1?' review':' reviews')+(v?' for '+v:'');
+      sync()
+    }
+    function step(d){track.scrollBy({left:d*(track.firstElementChild.getBoundingClientRect().width+22),behavior:'smooth'})}
+    prev.addEventListener('click',function(){step(-1)});
+    next.addEventListener('click',function(){step(1)});
+    track.addEventListener('scroll',sync,{passive:true});
+    window.addEventListener('resize',sync);
+    select.addEventListener('change',render);
+    render()
+  });
+})();
+</script>
+<!-- END mxt script -->
+
+<!-- END reviews section -->
+
+<!-- BEGIN mxr cta -->
+<div class="mxr">
+<section class="cta">
+  <div class="wrap">
+    <h2>Ready To Be Our Next Success Story?</h2>
+    <p>Get a free audit of your website, SEO and ads, with clear next steps you can use whether or not you hire us.</p>
+    <div class="ctas">
+      <a class="btn btn-y" href="/contact/">Get My Free Marketing Audit &rarr;</a>
+      <a class="btn btn-ghost" href="/services/">Explore Our Services</a>
+    </div>
+  </div>
+</section>
+</div>
+<!-- END mxr cta -->
+</body>
+</html>
